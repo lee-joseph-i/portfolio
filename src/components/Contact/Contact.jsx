@@ -3,10 +3,12 @@ import Fade from 'react-reveal/Fade';
 import { Container } from 'react-bootstrap';
 import PortfolioContext from '../../context/context';
 import Title from '../Title/Title';
+import Resume from '../../images/Joseph_Lee_Resume.pdf';
 
 const Contact = () => {
   const { contact } = useContext(PortfolioContext);
-  const { cta, btn, email } = contact;
+  // const { cta, btn, email } = contact;
+  const { cta, btn } = contact;
 
   return (
     <section id="contact">
@@ -19,7 +21,8 @@ const Contact = () => {
               target="_blank"
               rel="noopener noreferrer"
               className="cta-btn cta-btn--resume"
-              href={email}
+              href={Resume}
+              download="Joseph_Lee_Resume"
             >
               {btn || "Let's Talk"}
             </a>

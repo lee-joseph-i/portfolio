@@ -19,13 +19,13 @@ export const heroData = {
 export const aboutData = {
   img: 'headshot-joe.png',
   paragraphOne:
-    'Through eight years of software Quality Assurance, I have refined test plans, mastered manual testing, and coordinated release schedules with all disciplines across the production team. Over time, I realized that understanding code became a pivotal step in advancing my skills.',
+    'My pursuit of software development started in Quality Assurance. Through eight years of professional QA, I have refined test plans, mastered manual testing, and coordinated release schedules with all disciplines across the production team.',
   paragraphTwo:
-    'I believed that knowing how to analyze error logs, understanding DOM manipulation, and reading source code would tremendously improve my reports and reduce test time. This is what led me to start and ultimately expand my skills as a software developer.',
+    'Though I was recognized for my abilities as a tester, I realized that being able to read and write code changes was a pivotal step in advancing my skills, understanding intricacies of our product, and pushing stable, quality releases.',
   paragraphThree:
-    'Over the last few months, I quickly picked up several technologies and built three projects, each with unique tech stacks. I am proud to have designed a kanban board on my full stack project that feels very familiar to my own work experiences using Asana and JIRA. Currently, I am working with a small group of engineers in creating an original multiplayer game - take a look below!',
-  resume:
-    'https://docs.google.com/document/d/11Ng_LIi43YJKF4XAgreNEDjHV3JPsLrOdFnAwaIVoVI/edit?usp=sharing', // if no resume, the button will not show up
+    'Over the last few months, I quickly picked up several technologies and built three projects. While each project is built on unique tech stacks, I have primarily enjoyed and focused on mastery of React, Redux, Ruby on Rails, PostgreSQL, and MongoDB - take a look at my projects below!',
+  resume: 'test', // if no resume, the button will not show up
+  // 'https://docs.google.com/document/d/11Ng_LIi43YJKF4XAgreNEDjHV3JPsLrOdFnAwaIVoVI/edit?usp=sharing', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
@@ -35,7 +35,7 @@ export const projectsData = [
     img: 'dietsana-screenshot.png',
     title: 'Dietsana',
     info:
-      'Dietsana is a pixel-perfect rendition of Asana, a project management web application designed for teams. Users can create projects and associated tasks with descriptions, assignments, and due dates to organize their work. Dietsana provides both a List and Kanban Board to enhance user experience and accessibility.',
+      'Dietsana is a pixel-perfect rendition of Asana, a project management web application designed for teams. Users can create projects and associated tasks with descriptions, assignments, and due dates to organize their work.',
     info2: '',
     url: 'https://dietsana.herokuapp.com/',
     repo: 'https://github.com/lee-joseph-i/dietsana', // if no repo, the button will not show up
@@ -66,8 +66,7 @@ export const projectsData = [
 export const contactData = {
   cta: '',
   btn: 'View Resume',
-  email:
-    'https://docs.google.com/document/d/11Ng_LIi43YJKF4XAgreNEDjHV3JPsLrOdFnAwaIVoVI/edit?usp=sharing',
+  email: 'test',
 };
 
 // FOOTER DATA
