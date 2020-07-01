@@ -32,16 +32,6 @@ export const aboutData = {
 export const projectsData = [
   {
     id: uuidv1(),
-    img: 'dietsana-screenshot.png',
-    title: 'Dietsana',
-    info:
-      'Dietsana is a pixel-perfect rendition of Asana, a project management web application designed for teams. Users can create projects and associated tasks with descriptions, assignments, and due dates to organize their work.',
-    info2: '',
-    url: 'https://dietsana.herokuapp.com/',
-    repo: 'https://github.com/lee-joseph-i/dietsana', // if no repo, the button will not show up
-  },
-  {
-    id: uuidv1(),
     img: 'space-ball-screenshot.png',
     title: 'Space Ball',
     info:
@@ -49,6 +39,16 @@ export const projectsData = [
     info2: '',
     url: 'https://space-ball.herokuapp.com/#/',
     repo: 'https://github.com/Matthew-SA/spaceJam', // if no repo, the button will not show up
+  },
+  {
+    id: uuidv1(),
+    img: 'dietsana-screenshot.png',
+    title: 'Dietsana',
+    info:
+      'Dietsana is a pixel-perfect rendition of Asana, a project management web application designed for teams. Users can create projects and associated tasks with descriptions, assignments, and due dates to organize their work.',
+    info2: '',
+    url: 'https://dietsana.herokuapp.com/',
+    repo: 'https://github.com/lee-joseph-i/dietsana', // if no repo, the button will not show up
   },
   {
     id: uuidv1(),
