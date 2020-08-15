@@ -32,7 +32,7 @@ export const aboutData = {
 export const projectsData = [
   {
     id: uuidv1(),
-    img: 'maru-card.png',
+    img: 'maru-portfolio.png',
     title: 'Maru',
     info:
       'Maru is an Asana-inspired project management web application designed for teams. Users can create projects and associated tasks with descriptions, assignments, and due dates to organize their work.\nBuilt on React, Redux, PostgreSQL, Ruby on Rails, Webpack.',
