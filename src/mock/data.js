@@ -21,7 +21,7 @@ export const aboutData = {
   paragraphOne:
     'My pursuit of software development started in Quality Assurance. With over five years of professional QA testing at venture-backed startups to large corporations, I worked closely across all disciplines to deliver high quality software across multiple industries.',
   paragraphTwo:
-    'As I spent more hours collaborating and working with engineers, I decided to take a leap forward into my career as a software engineer. Over the last couple of months, I quickly picked up several technologies and built several projects. While each project is built on unique tech stacks, I immensely enjoy working with React, Ruby on Rails, PostgreSQL, and MongoDB.',
+    'As I spent more and more time working with engineers and learning from them, I decided to take a leap forward into my career as a software engineer. Over the last couple of months, I quickly picked up several technologies and built several projects. While each project is built on unique tech stacks, I immensely enjoy working with React, Ruby on Rails, PostgreSQL, and MongoDB.',
   paragraphThree:
     "I am always looking to improve my code and learn new technologies. Currently, I'm volunteering as a software engineer for a great social cause - check out my projects below!",
   resume: 'test', // if no resume, the button will not show up
@@ -35,8 +35,9 @@ export const projectsData = [
     img: 'prosparity_project.png',
     title: 'The Prosp(a)rity Project',
     info:
-      'The Prosp(a)rity Project is a not for profit organization that empowers Black women, notably through economic initiatives. \nBuilt primarily with a Firebase setup with React Hooks, and growing!',
-    info2: '',
+      'The Prosp(a)rity Project is a not for profit organization that empowers Black women, notably through economic initiatives.',
+    info2:
+      'We are currently building most of the frontend using React Hooks with a Firebase backend setup.',
     url: 'https://theprosparityproject.org/',
     // repo: 'https://github.com/lee-joseph-i/maru', // if no repo, the button will not show up
   },
@@ -45,8 +46,9 @@ export const projectsData = [
     img: 'maru-portfolio.png',
     title: 'Maru',
     info:
-      'Maru is an Asana-inspired project management web application. Users can create projects with interactable kanban boards to organize their work.\nBuilt on React, Redux, PostgreSQL, Ruby on Rails, Webpack.',
-    info2: '',
+      'Maru is an Asana-inspired project management web application. Users can create projects with interactable kanban boards to organize their work.',
+    info2:
+      'This is a solo project built from scratch using React, Redux, PostgreSQL, Ruby on Rails, Webpack, and more.',
     url: 'https://maru-sana.herokuapp.com/',
     repo: 'https://github.com/lee-joseph-i/maru', // if no repo, the button will not show up
   },
@@ -55,8 +57,8 @@ export const projectsData = [
     img: 'space-ball-screenshot.png',
     title: 'Space Ball',
     info:
-      'Built on HTML5 canvas, Space Ball combines the Matter.js physics engine with Socket.io connectivity to simulate a multiplayer game. This project was created by a team of four engineers.',
-    info2: '',
+      'Built on HTML5 canvas, Space Ball combines the Matter.js physics engine with Socket.io connectivity to simulate a multiplayer game.',
+    info2: 'This project was created by a team of four super-cool engineers.',
     url: 'https://space-ball.herokuapp.com/#/',
     repo: 'https://github.com/Matthew-SA/spaceJam', // if no repo, the button will not show up
   },
