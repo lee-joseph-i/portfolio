@@ -19,11 +19,11 @@ export const heroData = {
 export const aboutData = {
   img: 'headshot-joe.png',
   paragraphOne:
-    'My pursuit of software development started in Quality Assurance. Through eight years of professional QA, I have refined test plans, mastered manual testing, and coordinated release schedules with all disciplines across the production team.',
+    'My pursuit of software development started in Quality Assurance. With over five years of professional QA testing at venture-backed startups to large corporations, I worked closely across all disciplines to deliver high quality software across multiple industries.',
   paragraphTwo:
-    'Though I was recognized for my abilities as a tester, I realized that being able to read and write code changes was a pivotal step in advancing my skills, understanding intricacies of our product, and pushing stable, quality releases.',
+    'As I spent more hours collaborating and working with engineers, I decided to take a leap forward into my career as a software engineer. Over the last couple of months, I quickly picked up several technologies and built several projects. While each project is built on unique tech stacks, I immensely enjoy working with React, Ruby on Rails, PostgreSQL, and MongoDB.',
   paragraphThree:
-    'Over the last few months, I quickly picked up several technologies and built three projects. While each project is built on unique tech stacks, I have primarily enjoyed and focused on mastery of React, Redux, Ruby on Rails, PostgreSQL, and MongoDB - take a look at my projects below!',
+    "I am always looking to improve my code and learn new technologies. Currently, I'm volunteering as a software engineer for a great social cause - check out my projects below!",
   resume: 'test', // if no resume, the button will not show up
   // 'https://docs.google.com/document/d/11Ng_LIi43YJKF4XAgreNEDjHV3JPsLrOdFnAwaIVoVI/edit?usp=sharing', // if no resume, the button will not show up
 };
@@ -32,10 +32,20 @@ export const aboutData = {
 export const projectsData = [
   {
     id: uuidv1(),
+    img: 'prosparity_project.png',
+    title: 'The Prosp(a)rity Project',
+    info:
+      'The Prosp(a)rity Project is a not for profit organization that empowers Black women, notably through economic initiatives. \nBuilt primarily with a Firebase setup with React Hooks, and growing!',
+    info2: '',
+    url: 'https://theprosparityproject.org/',
+    // repo: 'https://github.com/lee-joseph-i/maru', // if no repo, the button will not show up
+  },
+  {
+    id: uuidv1(),
     img: 'maru-portfolio.png',
     title: 'Maru',
     info:
-      'Maru is an Asana-inspired project management web application designed for teams. Users can create projects and associated tasks with descriptions, assignments, and due dates to organize their work.\nBuilt on React, Redux, PostgreSQL, Ruby on Rails, Webpack.',
+      'Maru is an Asana-inspired project management web application. Users can create projects with interactable kanban boards to organize their work.\nBuilt on React, Redux, PostgreSQL, Ruby on Rails, Webpack.',
     info2: '',
     url: 'https://maru-sana.herokuapp.com/',
     repo: 'https://github.com/lee-joseph-i/maru', // if no repo, the button will not show up
